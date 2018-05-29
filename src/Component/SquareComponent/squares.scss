@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.Squares {
+  border: 1px solid #000;
+  width: 94px;
+  height: 77px;
+  margin: 2px;
+  background-color: #FFD54F;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+  div {
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+  }
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    color: #ffffff;
+  }
+}
+@keyframes font-scale {
+  0% {
+    font-size: 1em;
+  }
+  25%{
+    font-size: 1.5em;
+  }
+  50% {
+    font-size: 2em;
+  }
+  75%{
+    font-size: 3em;
+  }
+  100% {
+    font-size: 2.5em;
+  }
+}
